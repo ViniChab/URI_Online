@@ -1,22 +1,14 @@
-#include <iostream> 
-#include <iomanip>
+#include <iostream>
+#include <math.h>
 using namespace std;
-double raio, pi;
-
-double area ( double area, double raio, double pi) {
-	
-	pi = 3.14159;
-	area = pi * (raio * raio);
-	return area;
-	
-}
+double R,PI,a;
 
 int main () {
 	
-	double a;
-	raio = 2;
-	a = area ( a, raio, pi );
-	cout << "A=" << setprecision(6) << a << endl;
+	PI = 3.14159;
+	cin >> R;
+	a = PI * (pow(R,2));
+	cout << "A=" << a << endl;
 	
 	return 0;
 	
