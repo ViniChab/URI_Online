@@ -7,7 +7,7 @@ int main () {
 	PI = 3.14159;
 	scanf("%lf", &R);
 	a = PI * (pow(R,2));
-	printf ( "A=%0.4f", a, "\n" );
+	printf ("A=%0.4f\n", a);
 	return 0;
 	
 }
